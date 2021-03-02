@@ -1,6 +1,20 @@
-.summary {
+.summary-container {
+    width: 30%;
     background-color: antiquewhite;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 5px 5px 10px lightgray;
-} 
+}
+.summary-heading {
+    text-align: center;
+}
+.added-player {
+    margin-top: 25px;
+    margin-left: 25px;
+}
+#icon {
+    margin-right: 5px;
+}
+#salary {
+    margin-left: 25px;
+}

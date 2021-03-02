@@ -26,7 +26,7 @@ const Team = () => {
             </div>
             <div className="summary-container">
                 <div className="summary-heading">
-                    <h3>Players In The Team:{addPlayer.length}</h3>
+                    <h3>Players In The Team:</h3>
                 </div>
                 <div className="added-player">
                     <Summary addPlayer={addPlayer}></Summary>
