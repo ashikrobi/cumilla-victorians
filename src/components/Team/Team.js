@@ -8,10 +8,11 @@ const Team = () => {
     const [addPlayer, setNewPlayer] = useState([]);
 
     const handleAddPlayer = (newPlayer) => {
-        console.log('player added', newPlayer);
+        // console.log('player added', newPlayer);
         const selectedPlayer = [...addPlayer, newPlayer];
         setNewPlayer(selectedPlayer);
     }
+    const totalSalary = addPlayer.reduce((sum, salary) => sum + salary.salary, 0)
     return (
         <div className="players-container">
             <div className="player-container">
@@ -30,6 +31,9 @@ const Team = () => {
                 </div>
                 <div className="added-player">
                     <Summary addPlayer={addPlayer}></Summary>
+                </div>
+                <div className='total-costing'>
+                    <h6>Total: ${totalSalary}</h6>
                 </div>
             </div>
         </div>

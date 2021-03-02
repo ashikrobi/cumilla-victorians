@@ -18,3 +18,10 @@
 #salary {
     margin-left: 25px;
 }
+.total-costing {
+    background-color: white;
+    box-shadow: 5px 5px 10px lightgray;
+    padding:10px;
+    text-align: right;
+    border-radius:5px;
+}

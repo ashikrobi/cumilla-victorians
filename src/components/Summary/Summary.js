@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUserCircle } from '@fortawesome/free-solid-svg-icons';
 const Summary = (props) => {
     const players = props.addPlayer;
-    console.log(props.addPlayer);
+    // console.log(props.addPlayer);
     return (
         <div className='summary'>
         {
