@@ -15,6 +15,7 @@ const Team = () => {
                             player.map(player => <Player
                                 handleAddPlayer={handleAddPlayer}
                                 player={player}
+                                key={player.id}
                                 ></Player>)
                         }
 
